@@ -1,0 +1,15 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<view class="container">
+  <view class="header">
+    <text class="title">{{ title }}</text>
+  </view>
+  <view class="user" bindtap="getUserInfo">
+    <open-data type="userAvatarUrl"></open-data>
+    <open-data type="userNickName"></open-data>
+    <open-data type="userGender" lang="zh_CN"></open-data>
+    <open-data type="userCity" lang="zh_CN"></open-data>
+    <open-data type="userProvince" lang="zh_CN"></open-data>
+  </view>
+</view>
+
+
